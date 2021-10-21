@@ -7,8 +7,6 @@
         <th>Email</th>
         <th>Phone</th>
         <th>Twitter</th>
-        <th>User ID</th>
-        <th></th>
       </tr>
     </thead>
 
@@ -22,8 +20,6 @@
             <td><%= friend.email %></td>
             <td><%= friend.phone %></td>
             <td><%= friend.twitter %></td>
-            <td><%= friend.user_id %></td>
-            <td><%= link_to 'Delete', friend, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-danger btn-sm" %></td>
           </tr>
         <% end %>
       <% end %>
